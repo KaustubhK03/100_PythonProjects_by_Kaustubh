@@ -7,7 +7,6 @@ print(Stages.logo)
 
 print("Welcome to Kaustubh's Hangman's Game: ")
 print("You have total 6 lives! ")
-print(f'Pssst, the solution is {chosen_word}.')
 print(Stages.stages[6])
 display = []
 
@@ -45,5 +44,6 @@ while lives != 0 and '_' in display:
     print(display2)
 if lives == 0:
     print("You lost!")
+    print("The Word was: ", chosen_word)
 else:
     print("You won!")
