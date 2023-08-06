@@ -2,6 +2,9 @@
   "name": "kaustubh-blog",
   "version": "1.0.0",
   "description": "My personal Blog site",
+  "scripts": {
+            "start": "node main-100Projects/Complete Blog Site(Capstone Project 5)(Project 60)/main.py"
+  }
   "main": "main-100Projects/Complete Blog Site(Capstone Project 5)(Project 60)/main.py",
   "repository": {
     "type": "git",
